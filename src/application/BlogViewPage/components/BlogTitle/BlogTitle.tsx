@@ -5,6 +5,7 @@ import { FC } from 'react'
 import useBlog from '@/hooks/useBlog'
 import { FiHeart } from 'react-icons/fi'
 import { TbShare } from 'react-icons/tb'
+import { AiOutlineLike } from 'react-icons/ai'
 import Button, { Size } from '@/components/Button'
 
 const BlogTitle: FC = () => {
@@ -26,6 +27,11 @@ const BlogTitle: FC = () => {
           <div>
             <Button size={Size.XSmall} title="Bookmark">
               <FiHeart className="inline w-5 h-5" />
+            </Button>
+          </div>
+          <div>
+            <Button size={Size.XSmall} title="Bookmark">
+              <AiOutlineLike className="inline w-5 h-5" />
             </Button>
           </div>
           <div>
