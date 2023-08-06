@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -42,7 +43,7 @@ const nextConfig = {
   },
   //Timeout setting for AWS
   staticPageGenerationTimeout: 90,
-  output: 'export',
+  output: 'standalone',
 }
 
 module.exports = nextConfig
