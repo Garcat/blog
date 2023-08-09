@@ -42,7 +42,7 @@ const nextConfig = {
     return config
   },
   //Timeout setting for AWS
-  staticPageGenerationTimeout: 90,
+  staticPageGenerationTimeout: 60,
 }
 
 module.exports = nextConfig
